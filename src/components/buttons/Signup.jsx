@@ -24,13 +24,14 @@ const SignUp = () => {
                         <div className="mb-3">
                           <label for="exampleInputEmail1" className="form-label"> Correo Electronico </label>
                           <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
-                          <div id="emailHelp" className="form-text"> Nunca compartir su correo electrónico con nadie más. </div>
+                          <div id="emailHelp" className="form-text"> Nunca compartas tu correo electrónico con nadie más. </div>
                         </div>
                         <div className="mb-3">
                           <label for="exampleInputPassword1" className="form-label"> Contraseña </label>
                           <input type="password" className="form-control" id="exampleInputPassword1"/>
                         </div>
-                          <label className='mb-4 d-flex justify-content-center'> Ingresa con </label>
+                        <hr/>
+                          <label className='mb-4 d-flex justify-content-center'> Registrate con </label>
                         <button className='btn btn-primary w-100 mb-4'>
                           <span className='fa fa-google me-2'></span>
                           Iniciar con Google
