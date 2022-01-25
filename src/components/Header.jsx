@@ -1,6 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import CartBtn from './buttons/CartBtn';
 import Login from './buttons/Login';
+import Signup from './buttons/SignUp';
 
 const Header = () => {
     return (
@@ -26,10 +28,12 @@ const Header = () => {
                             </li>
                             
                         </ul>
+                        <NavLink className="navbar-brand fw-bold ms-auto" to="/"> Phone Shop </NavLink>
+                        <Login/>
+                        <Signup/>
+                        <CartBtn/>
                     </div>
                 </div>
-                <NavLink className="navbar-brand fw-bold ms-auto" to="/"> Phone Shop </NavLink>
-                <Login/>
             </nav>
         </>
     );

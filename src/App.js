@@ -11,7 +11,7 @@ import { Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-   <>
+    <>
       <Header/>
       <Routes>
         <Route to="/" component={Home} />

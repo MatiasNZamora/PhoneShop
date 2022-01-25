@@ -4,11 +4,11 @@ const Login = () => {
 return (
     <>
         {/* <!-- Button trigger modal --> */}
-        <button type="button" className="btn btn-outline-primary ms-auto" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <button type="button" className="btn btn-outline-primary ms-auto" data-bs-toggle="modal" data-bs-target="#loginModal">
             <span className='fa fa-sign-in me-1'></span> Ingresar 
         </button>
           {/* <!-- Modal --> */}
-        <div className="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div className="modal fade" id="loginModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div className="modal-dialog">
                 <div className="modal-content">
                     <div className="modal-header">
@@ -42,7 +42,7 @@ return (
             </div>
         </div>
     </>
-)
+    )
 }
 
 export default Login;
