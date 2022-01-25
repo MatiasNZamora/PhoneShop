@@ -4,7 +4,7 @@ const SignUp = () => {
   return (
     <div>
         {/* <!-- Button trigger modal --> */}
-        <button type="button" className="btn btn-outline-primary ms-auto" data-bs-toggle="modal" data-bs-target="#signupModal">
+        <button type="button" className="btn btn-outline-primary ms-2" data-bs-toggle="modal" data-bs-target="#signupModal">
         <span className='fa fa-user-plus me-1'></span> Registrase 
         </button>
           {/* <!-- Modal --> */}
@@ -18,8 +18,8 @@ const SignUp = () => {
                 <div className="modal-body">
                     <form>
                         <div className="mb-3">
-                          <label for="exampleInputEmail1" className="form-label"> Usuario </label>
-                          <input type="text" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
+                          <label for="exampleInput" className="form-label"> Usuario </label>
+                          <input type="text" className="form-control" id="exampleInput" />
                         </div>
                         <div className="mb-3">
                           <label for="exampleInputEmail1" className="form-label"> Correo Electronico </label>

@@ -4,8 +4,8 @@ import { NavLink } from 'react-router-dom';
 const CartBtn = () => {
   return (
     <>
-      <NavLink className='btn btn-outline-primary'>
-        <span className='fa fa-shopping-cart'></span> Carrito()
+      <NavLink to='/Cart' className='btn btn-outline-primary ms-2'>
+        <span className='fa fa-shopping-cart me-1'></span> Carrito (0)
       </NavLink>
     </>
   );
