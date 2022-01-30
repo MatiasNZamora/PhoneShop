@@ -8,7 +8,6 @@ import  Contact from './components/Contact';
 import { Route, Routes } from 'react-router-dom';
 
 
-
 function App() {
   return (
     <>

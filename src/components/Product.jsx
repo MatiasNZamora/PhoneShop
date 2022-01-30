@@ -1,21 +1,22 @@
 import React from 'react';
-import  DATA  from '../Data'
+import DATA from '../Data';
+import {NavLink} from 'react-router-dom';
 
 const Product = () => {
-    
+
     const cardItem = (item) => {
         return (
-            <div class="card" style={{width: "18rem"}}>
-                <img src={ item.image } class="card-img-top" alt={item.title}/>
-                    <div class="card-body">
-                        <h5 class="card-title"> {item.title} </h5>
-                        {/* <p class="card-text"> {item.decription} </p> */}
-                        <p className='lead'> $ {item.price} </p>
-                        <a href="#" class="btn btn-primary"> Add to card </a>
-                    </div>
+            <div class="card my-5 py-4" key={item.id} style={{ width: "18rem" }}>
+                <img src={item.image} class="card-img-top" alt={item.title} />
+                <div class="card-body text-center">
+                    <h5 class="card-title"> {item.title} </h5>
+                    {/* <p class="card-text"> {item.decription} </p> */}
+                    <p className='lead'> $ {item.price} </p>
+                        <NavLink to={`/products/${item.id}`} className={"btn btn-outline-primary"}> Comprar ahora </NavLink>
+                </div>
             </div>
         );
-    }
+    };
 
     return (
         <div>
@@ -23,12 +24,12 @@ const Product = () => {
                 <div className="row">
                     <div className="col-12 text-center">
                         <h1> Productos </h1>
-                        <hr/>
+                        <hr />
                     </div>
                 </div>
             </div>
             <div className="container">
-                <div className="row">
+                <div className="row justify-content-around">
                     {DATA.map(cardItem)}
                 </div>
             </div>
