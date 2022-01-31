@@ -36,6 +36,15 @@ code {
 }
 
 
+/* Product */
+
+.product {
+  transition: all 0.5 ease;
+}
+
+.product:hover {
+  transform: scale(1.1);
+}
 
 
 

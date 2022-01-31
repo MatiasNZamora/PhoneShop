@@ -9,14 +9,14 @@ const About = () => {
                 <div className="row">
                     <div className="col-md-6">
                         <h1 className='text-primary fw-bold mb-4'> Sobre Nosotros </h1>
-                        <p className='leard mb-4'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime tempore inventore eligendi praesentium, temporibus harum repudiandae,
+                        <p className='lead mb-4'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime tempore inventore eligendi praesentium, temporibus harum repudiandae,
                         error esse ex, amet excepturi odio. Libero ipsa omnis dolorum ut ipsam, suscipit nihil. Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
                         Optio corporis eveniet perferendis impedit dicta enim eum voluptatem deserunt sapiente repudiandae qui saepe vel rerum sit vitae, ab debitis corrupti voluptas.\
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime tempore inventore eligendi praesentium, temporibus harum repudiandae,
                         error esse ex, amet excepturi odio. Libero ipsa omnis dolorum ut ipsam, suscipit nihil. Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
                         Optio corporis eveniet perferendis impedit dicta enim eum voluptatem deserunt sapiente repudiandae qui saepe vel rerum sit vitae, ab debitis corrupti voluptas.
                         </p>
-                        <NavLink to={"/contact"} className={'btn btn-outline-primary px-3'}> Contactanos </NavLink>
+                        <NavLink to={"/contact"} className={"btn btn-outline-primary px-3"}> Contactanos </NavLink>
                     </div>
                     <div className="col-md-6 d-flex justify-content-center">
                         <img src="/assets/img/about.png" alt="sobre nosotros" height="400px" width="400px" />

@@ -1,4 +1,5 @@
 import React from 'react';
+import Product from './Product';
 
 const Home = () => {
     
@@ -34,7 +35,8 @@ const Home = () => {
                         <span className="carousel-control-next-icon" aria-hidden="true"></span>
                         <span className="visually-hidden"> Next </span>
                     </button>
-                </div>   
+                </div> 
+                <Product/>
             </div>
     )
 
