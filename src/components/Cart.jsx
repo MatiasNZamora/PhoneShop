@@ -55,11 +55,11 @@ const Cart = () => {
     }
 
     return ( 
-    <>
-        {state.length === 0 && emptyCart()}
-        {state.length !== 0 && state.map(cartItems)}\
-        {state.length !== 0 && button()}
-    </>
+        <>
+            {state.length === 0 && emptyCart()}
+            {state.length !== 0 && state.map(cartItems)}{button()}
+            {/* {state.length !== 0 && button()} funcion completa de button no eredada. */}
+        </>
     )
 }
 
