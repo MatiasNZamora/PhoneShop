@@ -5,7 +5,7 @@ import  Home    from './components/Home';
 import  About   from './components/About';
 import  Product from './components/Product';
 import  Contact from './components/Contact';
-import Checout  from './components/Checkout'
+import Checkout  from './components/Checkout'
 import Cart     from './components/Cart';
 import ProductDetail from './components/ProductDetail';
 import { Route, Routes } from 'react-router-dom';
@@ -21,7 +21,7 @@ function App() {
         <Route exact path="/product" element={ <Product/> } />
         <Route exact path="product/:id" element={ <ProductDetail/> } />
         <Route exact path="/cart" element={ <Cart/> } />
-        <Route exact path="/checkout" element={ <Checout/> } />
+        <Route exact path="/checkout" element={ <Checkout/> } />
         <Route exact path="/about" element={ <About/> } />
         <Route exact path="/contact" element={ <Contact/> } />
       </Routes>
