@@ -5,8 +5,10 @@ import  Home    from './components/Home';
 import  About   from './components/About';
 import  Product from './components/Product';
 import  Contact from './components/Contact';
+import Checkout  from './components/Checkout'
+import Cart     from './components/Cart';
+import ProductDetail from './components/ProductDetail';
 import { Route, Routes } from 'react-router-dom';
-
 
 
 function App() {
@@ -14,10 +16,14 @@ function App() {
     <>
       <Header/>
       <Routes>
-        <Route to="/" component={Home} />
-        <Route to="/products" component={Product} />
-        <Route to="/about" component={About} />
-        <Route to="/contact" component={Contact} />
+        <Route exact path="/" element={ <Home/> } />
+        <Route exact path="/Home" element={ <Home/> } />
+        <Route exact path="/product" element={ <Product/> } />
+        <Route exact path="product/:id" element={ <ProductDetail/> } />
+        <Route exact path="/cart" element={ <Cart/> } />
+        <Route exact path="/checkout" element={ <Checkout/> } />
+        <Route exact path="/about" element={ <About/> } />
+        <Route exact path="/contact" element={ <Contact/> } />
       </Routes>
       <Footer/>
     </>

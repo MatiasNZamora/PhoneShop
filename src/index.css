@@ -21,3 +21,30 @@ code {
 .navbar-brand {
   letter-spacing: 3px;
 }
+
+
+
+/* Card */
+
+.card {
+  transition: all 0.5 ease;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 5px 5px rgba( 0, 0, 0, 0.5);
+}
+
+
+/* Product */
+
+.product {
+  transition: all 0.5 ease;
+}
+
+.product:hover {
+  transform: scale(1.1);
+}
+
+
+
