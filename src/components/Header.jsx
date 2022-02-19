@@ -27,7 +27,7 @@ const Header = () => {
                                 <NavLink className="nav-link" to="/Contact"> Contactos </NavLink>
                             </li>
                         </ul>
-                        <NavLink className="navbar-brand fw-bold mx-auto" to="/"> IPhone Shop </NavLink>
+                        <NavLink className="navbar-brand fw-bold mx-auto" to="/"> <img src='/assets/appel2.png' className='w-25 h-25' alt="appel"/> IPhone Shop </NavLink>
                         <Login/>
                         <SignUp/>
                         <CartBtn/>
